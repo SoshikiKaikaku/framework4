@@ -1,5 +1,10 @@
 # framework4
 
+### Prerequisites
+- **Apache Document Root**: `/var/www/html`
+- **Project Folder Name**: `myproject`
+- **Installation Server**: `localhost`
+
 ### Installation to linux
 ~~~
 cd /var/www/html
