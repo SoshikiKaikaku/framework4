@@ -1,0 +1,65 @@
+{
+	"id": {
+		"parent": "menu",
+		"list": "weekly_calendar",
+		"sort": "desc",
+		"sortitem": "id",
+		"itemtype": "number",
+		"title": "ID",
+		"table_title": "link",
+		"SCREEN_ITEMS_list": ["title", "class_name", "function_name", "type"],
+		"SCREEN_ITEMS_add": ["title", "class_name", "function_name", "type"],
+		"SCREEN_ITEMS_edit": ["title", "class_name", "function_name", "type"],
+		"SCREEN_ITEMS_delete": ["title", "class_name", "function_name"]
+	},
+	"menu_id": {
+		"title": "menu ID",
+		"itemtype": "number"
+	},
+	"sort": {
+		"title": "sort",
+		"itemtype": "number"
+	},
+	"title": {
+		"title": "Title",
+		"itemtype": "text",
+		"validation": ""
+	},
+	"class_name": {
+		"title": "Class",
+		"itemtype": "text",
+		"validation": ""
+	},
+	"function_name": {
+		"title": "Function",
+		"itemtype": "text",
+		"validation": ""
+	},
+	"type": {
+		"title": "Type",
+		"itemtype": "radio",
+		"validation": "",
+		"options": {
+			"1": {
+				"value": "Call Ajax",
+				"color": "B25AFF"
+			},
+			"2": {
+				"value": "Public Side",
+				"color": "FFD96F"
+			}
+		}
+	},
+	"date": {
+		"title": "Date",
+		"itemtype": "date"
+	},
+	"start_time": {
+		"title": "Start Time",
+		"itemtype": "time"
+	},
+	"end_time": {
+		"title": "End Time",
+		"itemtype": "time"
+	}
+}

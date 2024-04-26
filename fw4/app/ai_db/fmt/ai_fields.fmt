@@ -1,0 +1,10 @@
+id,24,N
+ai_db_id,24,N
+parameter_name,255,T
+parameter_title,255,T
+constant_array_name,255,T
+type,255,T
+default_value,255,T
+length,24,N
+validation,24,N
+sort,24,N

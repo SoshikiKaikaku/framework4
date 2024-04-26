@@ -1,0 +1,167 @@
+.label {
+    display: inline-block;
+}
+
+input[type="text"], textarea, select, input[type="file"] {
+    outline: none;
+    height: 40px;
+    padding: 5px;
+}
+
+.error {
+	/* font-size: 14px; */
+	/* font-family: ui-rounded; */
+}
+
+.ui-widget-header{
+    background-color: #FFF;
+}
+
+.draggable-weekly-calendar {
+    height: calc( 100% - 50px );
+    margin: 2px;
+    padding: 2px;
+	border-radius: 5px;
+    z-index: 1;
+}
+
+.dbg_on {
+	background: #e6f1ff;
+}
+
+.dbg_off {
+	background: #fff;
+}
+
+.droppable-weekly-calendar {
+	min-height:30px;
+	position: relative;
+}
+
+.ui-droppable-hover{
+	background: #007dff;
+}
+
+.day_box {
+    width: calc(100% / 7 - 5px);
+    min-height: 300px;
+    float: left;
+    margin: 2px;
+}
+
+.number_of_time {
+	position: absolute;
+	top:0px;
+	left:2px;
+	color:#CCC;
+}
+
+.task_name{
+    font-size: 12px;
+    display: block;
+    margin-top: 2px;
+}
+
+.task_step{
+    font-size: 12px;
+    display: block;
+	overflow: hidden;
+}
+
+.day{
+    /* font-size: 12px; */
+    display: inline-block;
+    line-height: 2;
+}
+
+.schedule-page-button{
+    float: left;
+    background-color: #064683;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.date-range{
+    background-color: chocolate;
+    padding: 11px;
+    background-color: #C8DFFB !important;
+    text-align: justify;
+    text-align: center;
+    font-weight: bold;
+}
+
+.selected_step_bg {
+	background: #e6f1ff !important;
+}
+
+.time {
+	font-size:11px;
+}
+
+.listbutton:hover {
+	background: none;
+}
+
+th {
+    text-align: left;
+}
+
+
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 8px;
+    /* display: block; */
+    background-color: #064683;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 10px 30px;
+    /* transition: 0.2s; */
+    border: none;
+    /* margin-top: 20px; */
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.alert {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    /* padding-bottom: 5px; */
+    background: #e9efed;
+    color: black;
+}
+
+.alert .close {
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.search-form {
+    background: #c8dffb;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.disable{
+    pointer-events:none;
+    background:#d7c9c9;
+}
+
+.btn-cancel {
+    background-color: gray;
+}

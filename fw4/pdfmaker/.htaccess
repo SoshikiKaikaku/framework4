@@ -1,0 +1,6 @@
+
+Require all denied
+
+<Files pdfmaker_make.php>
+Require all granted
+</Files>

@@ -1,0 +1,10 @@
+<style>
+	
+	.multi_dialog_scroll {
+		overflow-x: scroll;
+	}
+
+	.multi_dialog_contents:has(.dbadmin_database_header) {
+		width: max-content;
+	}
+</style>

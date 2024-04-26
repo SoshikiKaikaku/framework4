@@ -1,0 +1,21 @@
+th {
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.list-large-btn {
+    float: right;
+    color: black;
+    border: solid black 1px;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    border-radius: 3px;
+    background: none;
+    padding: 0;
+}
+
+

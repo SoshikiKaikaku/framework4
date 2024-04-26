@@ -1,0 +1,5 @@
+id,24,N
+tb_name,255,T
+sort,24,N
+parent_tb_id,24,N
+description,255,T

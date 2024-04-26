@@ -1,0 +1,263 @@
+th {
+    text-align: left;
+}
+
+
+.flex{
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-between {
+	display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 8px;
+    /* display: block; */
+    background-color: #064683;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 10px 30px;
+    /* transition: 0.2s; */
+    border: none;
+    /* margin-top: 20px; */
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.alert {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    /* padding-bottom: 5px; */
+    background: #e9efed;
+    color: black;
+}
+
+.alert .close {
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.search-form {
+    background: #c8dffb;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.disable{
+    pointer-events:none;
+    background:#d7c9c9;
+}
+
+.btn-cancel {
+    background-color: gray;
+}
+
+.table-head {
+	background:#f3f3f3;
+	font-weight: normal;
+}
+
+DIV.table {
+    display:table;
+    width: 100%;
+    margin-top: 10px;
+}
+
+FORM.tr {
+    display:table-row;
+    border: solid black 1px;
+    background-color: white;
+}
+
+DIV.tr {
+    display:table-row;
+    background: #064683;
+    width: 100%;
+    color: white;
+}
+
+SPAN.td {
+    display:table-cell;
+    padding: 5px;
+}
+
+.tbody {
+    display: table-row-group;
+}
+
+/* codegen combine */
+.codegen-combine-parents {
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    font-size:20px;
+}
+
+.codegen-combine-childs {
+    display:flex;
+    flex-wrap:wrap;
+    background:#c8dffb;
+    margin:5px;
+    border-radius:5px;
+    min-height: 100px;
+}
+
+.codegen-combine-child {
+    padding: 10px;
+    margin:10px;
+    background: white;
+    border-radius:5px;
+    position: relative;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    height: min-content;
+}
+
+.codegen-combine-child-action {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.dragable-item{
+    background-color: #fff;
+}
+
+.col_handle {
+	cursor: pointer;
+}
+
+.sort_parameters tr {
+	background: #FFF;
+}
+
+.value {
+	margin-left:10px;
+	color:black;
+	font-size:20px;
+}
+
+.type_db {
+	background:#1974d2;
+	color:#FFF;
+	text-align: center;
+	max-width:120px;
+}
+
+.type_code {
+	background:#feca40;
+	color:#FFF;
+	text-align: center;
+	max-width:120px;
+}
+
+.type_design {
+	background:#155724;
+	color:#FFF;
+	text-align: center;
+	max-width:120px;
+}
+
+.type_form_area .type_db, .type_form_area .type_code, .type_form_area .type_design {
+	padding:10px;
+	max-width: inherit;
+}
+
+.pt {
+	margin-left:20px;
+	color:#89c3ff;
+}
+
+.pv {
+	margin-left:10px;
+}
+
+.typeimage {
+	float:left;
+	margin-left:20px;
+	width:150px;
+	cursor: pointer;
+	border: 3px #e9e9e9 solid;
+}
+
+.typeimage:hover {
+	border: 3px #feca40 solid;
+}
+
+.typeimage p {
+    word-break: break-word;
+}
+
+.typeimage_area {
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    width: 600px;
+    text-align: center;
+	height:250px;
+}
+
+.indextable span {
+	color:#ccc;
+	font-size:12px;
+}
+
+.security_parameters_area {
+	border: 2px #4BA3FF solid;
+	border-radius: 10px;
+	padding:20px;
+	padding-top:30px;
+	display: block;
+	overflow:hidden;
+	position: relative;
+	margin-top:20px;
+}
+
+.security_parameters_area:after {
+    content: "Security";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #4ba3ff;
+    color: #FFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0 0 10px 0;
+}
+
+.after_workflow_status_area {
+	border: 2px #cf6b00 solid;
+	border-radius: 10px;
+	padding:20px;
+	padding-top:30px;
+	display: block;
+	overflow:hidden;
+	position: relative;
+	margin-top:20px;
+}
+
+.after_workflow_status_area:after {
+    content: "After executing this function";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #cf6b00;
+    color: #FFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0 0 10px 0;
+}

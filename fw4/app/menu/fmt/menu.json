@@ -1,0 +1,42 @@
+{
+	"id": {
+		"list": "dragdrop",
+		"sort": "desc",
+		"sortitem": "id",
+		"itemtype": "number",
+		"title": "ID",
+		"table_title": "menu",
+		"child_tables": ["link"],
+		"child": "link",
+		"SCREEN_ITEMS_list": ["category"],
+		"SCREEN_ITEMS_add": ["category"],
+		"SCREEN_ITEMS_edit": ["category"],
+		"SCREEN_ITEMS_delete": ["category"],
+		"SCREEN_ITEMS_search": [],
+		"SCREEN_ITEMS_view": [],
+		"SCREEN_ITEMS_public_add": [],
+		"SCREEN_ITEMS_public_list": [],
+		"SCREEN_ITEMS_public_detail": []
+	},
+	"category": {
+		"title": "Category",
+		"itemtype": "text",
+		"validation": ""
+	},
+	"sort": {
+		"title": "sort",
+		"itemtype": "number"
+	},
+	"date": {
+		"title": "Date",
+		"itemtype": "date"
+	},
+	"start_time": {
+		"title": "Start Time",
+		"itemtype": "time"
+	},
+	"end_time": {
+		"title": "End Time",
+		"itemtype": "time"
+	}
+}

@@ -1,0 +1,7 @@
+id,24,N
+bugs_id,24,N
+date,255,T
+memo,255,T
+name,255,T
+created_at,255,T
+updated_at,255,T

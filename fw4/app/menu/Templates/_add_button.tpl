@@ -1,0 +1,1 @@
+<button class="ajax-link" data-class="{$class}" data-function="add_exe" data-form="{$class}_{$dialog_name}_{$timestamp}" data-table_name="{$table_name}" data-parent_id="{$parent_id}" data-reload_table="{$reload_table}">Add the following data</button>

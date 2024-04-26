@@ -1,0 +1,14 @@
+id,24,N
+class_name,255,T
+table_name,255,T
+field_name,255,T
+field_type,255,T
+list_flg,1,N
+add_flg,1,N
+edit_flg,1,N
+validate_flg,1,N
+search_flg,1,N
+delete_flg,1,N
+array_data,10000,T
+validation_text_types,255,T
+validation_file_types,255,T

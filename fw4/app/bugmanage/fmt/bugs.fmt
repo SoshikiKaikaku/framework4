@@ -1,0 +1,11 @@
+id,24,T
+status,255,T
+priority,255,T
+desk_japanees,2000,T
+desk_english,2000,T
+image,255,T
+thumb_image,255,T
+cost,255,T
+payment_id,24,N
+created_at,255,T
+updated_at,255,T

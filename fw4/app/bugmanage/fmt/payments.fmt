@@ -1,0 +1,6 @@
+id,24,N
+amount,24,T
+date,24,T
+status,24,N
+error_msg,255,T
+callback_data,1000,T
